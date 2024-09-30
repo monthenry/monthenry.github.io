@@ -1,138 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Henry Mont - Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Learn more about Henry MONT.">
+    <meta name="author" content="Henry">
+    <title>Henry's Landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-  <!-- Header -->
-  <header>
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Henry MONT</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Henry MONT</span>
+            </h1>
+            <p class="header-subtitle">Computer Science Student</p>            
+            <a href="#portfolio">
+                <button class="btn btn-primary">Visit My Works</button>
+            </a>
+        </div>              
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/henry.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        I am a final-year engineering student at INSA Lyon, majoring in Computer Science, with a concurrent Bachelor in Economics from Université Paris Dauphine-PSL. My academic journey reflects my deep interest in both technology and finance. Since the rise of Bitcoin in 2017, I have been particularly drawn to cryptocurrencies and therefore blockchain technology, this fueled my interest in CeFi and DeFi, ultimately leading me to pursue economics alongside my engineering studies.
+                        Throughout my education, I have taken on several data engineering intern roles, working on decentralized systems and blockchain technologies. These experiences have sharpened my skills in problem-solving and critical thinking, as I enjoy tackling technical challenges and seeing projects through from inception to completion. I thrive in collaborative environments, where I can contribute ideas and take the initiative, while also learning from the perspectives of others. I look forward to applying my diverse skills to innovative projects that bridge technology and finance, particularly within the decentralized space.
+                    </p>
+                    <a href="assets/documents/CV-Henry-MONT.pdf" download="CV-Henry-MONT.pdf">
+                        <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    </a>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">I am looking for a 6 month internship</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="#contact">
+                        <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
+                    </a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container text-center">
+            <p class="section-subtitle">What about my journey?</p>
+            <h6 class="section-title mb-6">My Resume</h6>
+            <div class="row">
+                <!-- Experience Section -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Experience</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title">June 2024 - September 2024</h6>
+                            <p><b>Research Intern in Decentralized Systems</b></p>
+                            <p>LIRIS, CNRS, Lyon, France</p>
+                            <hr>
+                            <h6 class="title">June 2023 - August 2023</h6>
+                            <p><b>Data Engineer Intern</b></p>
+                            <p>Ki Foundation, Paris, France</p>
+                            <hr>
+                            <h6 class="title">May 2022 - July 2022</h6>
+                            <p><b>Data Engineer Intern</b></p>
+                            <p>Fayat, Razel-Bec, Paris, France</p>
+                            <hr>
+                            <h6 class="title">July 2020 - July 2021</h6>
+                            <p><b>Co-Founder</b></p>
+                            <p>OnTable, Roanne, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Section -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title">2024 - 2025</h6>
+                            <p><b>Bachelor’s Degree in Economy</b></p>
+                            <p class="subtitle">Université Paris Dauphine-PSL, Paris, France</p>
+                            <hr>
+                            <h6 class="title">2022 - 2025</h6>
+                            <p><b>Master's degree in Computer Science</b></p>
+                            <p class="subtitle">INSA Lyon, Lyon, France</p>
+                            <hr>
+                            <h6 class="title">2020 - 2022</h6>
+                            <p><b>Associate Degree in Computer Science (Valedictorian)</b></p>
+                            <p class="subtitle">Université Paris Saclay, Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>Python, C/C++, Java</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Solidity, Blockchain</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>HTML, CSS, JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL, MySQL, PL/SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Docker, Git</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Windows, MacOS, Linux</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Languages Section -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>French</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>German</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Chinese</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Estonian</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="section" id="portfolio">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+
+            <!-- Blog Card 1: Research Internship at LIRIS -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/iexec.jpg" class="blog-card-img" alt="Research at LIRIS and iExec">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Incentive Mechanisms in Decentralized Marketplaces</h5>
+                    <p>During my research internship at LIRIS (in collaboration with iExec), I explored incentive mechanisms for decentralized computing marketplaces, ensuring quality resource sharing using game theory models. I worked on:</p>
+                    <ul>
+                        <li>State-of-the-art analysis of incentive methods.</li>
+                        <li>Modeling attack scenarios and designing governance mechanisms.</li>
+                        <li>Developing a "blind slashing" mechanism and conducting simulations for reputation management.</li>
+                    </ul>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/IEEE.jpg" class="blog-card-img" alt="STAMP Paper">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Blockchain-based Student Attendance Management (STAMP)</h5>
+                    <p>In collaboration with a teacher during my Erasmus program at Tartu University, I co-authored a paper proposing a blockchain and DAO-based STudent Attendance Management Platform (STAMP). The system decentralizes attendance validation and incentivizes accurate reporting.</p>
+                    <a href="https://ieeexplore.ieee.org/document/10557210" class="blog-card-link">See more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- Blog Card 2: Data Engineer Intern at Ki Foundation -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/ki-foundation.jpg" class="blog-card-img" alt="Ki Foundation - Blockchain Project">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Blockchain Data Indexing for Ki Chain</h5>
+                    <p>As a Data Engineer Intern at Ki Foundation, I worked on a blockchain indexing project. My key contributions included:</p>
+                    <ul>
+                        <li>Forking an indexer from the Cosmos blockchain ecosystem and adapting it to Ki Chain.</li>
+                        <li>Extracting and indexing blockchain transaction data via an API for efficient data distribution.</li>
+                    </ul>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- Blog Card 3: Data Engineer Intern at Fayat (Razel-Bec) -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/fayat.jpg" class="blog-card-img" alt="Razel-Bec Data Engineering Project">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Construction Data Management Dashboard</h5>
+                    <p>At Razel-Bec (Fayat), I worked on a project to streamline the management of construction equipment data. My role involved:</p>
+                    <ul>
+                        <li>Building a REST API to collect, process, and distribute equipment data such as fuel consumption and usage statistics.</li>
+                        <li>Developing a dashboard for real-time data visualization to support operational decision-making.</li>
+                    </ul>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- Blog Card 4: OnTable - Co-Founder and Full-Stack Developer -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/ontable.png" class="blog-card-img" alt="OnTable Project">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">OnTable: Contactless Menu Platform</h5>
+                    <p>I co-founded and developed OnTable, a digital platform providing contactless menus for restaurants. My contributions included:</p>
+                    <ul>
+                        <li>Contributing to the development of the full-stack platform using Python Django and AWS for cloud infrastructure.</li>
+                        <li>Providing a seamless digital experience for customers and empowering restaurants to reduce physical contact during the pandemic.</li>
+                    </ul>
+                </div>
+            </div><!-- end of blog wrapper -->
+            
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">Want to know more ?</p>
+            <h6 class="section-title mb-6">More About Me</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <a href="https://www.linkedin.com/in/monthenry/">
+                        <div class="pricing-card-header">
+                            <img class="pricing-card-icon" src="assets/imgs/linkedin.svg">
+                        </div>
+                        <h6 class="title">Linkedin</h6>
+                    </a>
+                </div>
+                <div class="pricing-card">
+                    <a href="https://github.com/monthenry">
+                        <div class="pricing-card-header">
+                            <img class="pricing-card-icon" src="assets/imgs/github.svg">
+                        </div>
+                        <h6 class="title">Github</h6>
+                    </a>
+                </div>
+                <div class="pricing-card">
+                    <a href="https://stackoverflow.com/users/14104136/henry-mont">
+                        <div class="pricing-card-header">
+                            <img class="pricing-card-icon" src="assets/imgs/stack-overflow.svg">
+                        </div>
+                        <h6 class="title">Stack Overflow</h6>
+                    </a>
+                </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
     <div class="container">
-      <h1>Henry Mont</h1>
-      <p>Research Intern | Data Engineer | Blockchain Enthusiast</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#publications">Publications</a>
-        <a href="#interests">Interests</a>
-      </nav>
-    </div>
-  </header>
+        <footer class="footer">       
+            <p>henry.mont@hotmail.fr</p>
+            <div class="text-right m-auto ml-sm-auto">
+                <p class="mb-0">Copyright 2019 &copy; DevCRUD</p>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-  <!-- About Section -->
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>
-      I am a master's student at INSA Lyon specializing in Computer Science with a strong interest in decentralized systems, data engineering, and blockchain. I have professional experience in developing data pipelines and incentive models for decentralized computing platforms.
-    </p>
-  </section>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-  <!-- Education Section -->
-  <section id="education" class="container">
-    <h2>Education</h2>
-    <ul>
-      <li>
-        <strong>INSA Lyon</strong> | Master of Engineering in Computer Science (2022 – 2025) – Lyon, France
-      </li>
-      <li>
-        <strong>Université Paris Dauphine-PSL</strong> | Bachelor in Economy (2024 – 2025) – Paris, France
-      </li>
-      <li>
-        <strong>Université Paris Saclay</strong> | Associate Degree in Computer Science (2020 – 2022) – Paris, France (Valedictorian)
-      </li>
-    </ul>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience" class="container">
-    <h2>Work Experience</h2>
-    <div class="job">
-      <h3>LIRIS, CNRS</h3>
-      <p><em>Research Intern in Decentralized Systems</em> | June 2024 – September 2024</p>
-      <ul>
-        <li>Searched for state-of-the-art incentive methods to guarantee resource quality in decentralized marketplaces.</li>
-        <li>Developed models based on game theory to anticipate strategic behaviors.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Ki Foundation</h3>
-      <p><em>Data Engineer Intern</em> | June 2023 – August 2023</p>
-      <ul>
-        <li>Adapted a Cosmos blockchain indexer for the Ki Chain, extracting and indexing transaction data.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>Razel-Bec</h3>
-      <p><em>Data Engineer Intern</em> | May 2022 – July 2022</p>
-      <ul>
-        <li>Processed data from construction equipment, enabling sustainability audits.</li>
-      </ul>
-    </div>
-    <div class="job">
-      <h3>OnTable</h3>
-      <p><em>Co-Founder & Full-Stack Developer</em> | July 2020 – July 2021</p>
-      <ul>
-        <li>Developed a contactless menu platform for restaurants using Python Django and AWS.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="container">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>OnTable</strong> – Contactless menu platform for restaurants (Python Django, AWS)</li>
-      <li><strong>Cosmos Indexer</strong> – Blockchain data extraction and indexing for Ki Chain</li>
-    </ul>
-  </section>
-
-  <!-- Publications Section -->
-  <section id="publications" class="container">
-    <h2>Publications</h2>
-    <p>No publications yet. Stay tuned!</p>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="container">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div>
-        <h3>Technical Skills</h3>
-        <p>C/C++, Java, Python, Solidity, Docker, SQL, Git</p>
-      </div>
-      <div>
-        <h3>Soft Skills</h3>
-        <p>Problem-Solving, Critical Thinking, Teamwork, Adaptability</p>
-      </div>
-      <div>
-        <h3>Languages</h3>
-        <p>Fluent in French and English, Proficient in Chinese and German, Beginner in Estonian</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Interests Section -->
-  <section id="interests" class="container">
-    <h2>Interests</h2>
-    <p>Blockchain, Volleyball, Cross-Country Cycling, Traveling, Volunteering</p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>Henry Mont © 2024 | <a href="mailto:henry.mont@hotmail.fr">henry.mont@hotmail.fr</a></p>
-      <p>
-        <a href="https://github.com/monthenry" target="_blank">GitHub</a> | 
-        <a href="https://linkedin.com/in/monthenry" target="_blank">LinkedIn</a>
-      </p>
-    </div>
-  </footer>
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
 
 </body>
 </html>
